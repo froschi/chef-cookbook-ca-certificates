@@ -7,4 +7,4 @@ version          "0.0.1"
 
 %w/ubuntu/.each { |os| supports os }
 
-%w/ubuntu/.each { |os| supports os }
+depends          "openssl", ">= 0.0.1"

@@ -1,3 +1,5 @@
+include_recipe "openssl"
+
 packages = Array.new
 
 case node[:lsb][:codename]
